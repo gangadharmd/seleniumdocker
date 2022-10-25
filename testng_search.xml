@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="search-module">
+
+    <test verbose="2" name="search java">
+        <parameter name="keyWord" value="java"/>
+
+        <classes>
+
+            <class name="com.newtours.tests.SearchTest">
+
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" name="search qa">
+        <parameter name="keyWord" value="qa"/>
+
+        <classes>
+
+            <class name="com.newtours.tests.SearchTest"/>
+        </classes>
+    </test>
+    <test verbose="2" name="search webdriver">
+        <parameter name="keyWord" value="webdriver"/>
+
+        <classes>
+
+            <class name="com.newtours.tests.SearchTest"/>
+        </classes>
+    </test>
+    <test verbose="2" name="search docker">
+        <parameter name="keyWord" value="docker"/>
+
+        <classes>
+
+            <class name="com.newtours.tests.SearchTest"/>
+        </classes>
+    </test>
+    <test verbose="2" name="search kubernetes">
+        <parameter name="keyWord" value="kubernetes"/>
+
+        <classes>
+
+            <class name="com.newtours.tests.SearchTest"/>
+        </classes>
+    </test>
+
+
+</suite>

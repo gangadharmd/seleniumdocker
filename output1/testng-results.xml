@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="search-module" duration-ms="57456" started-at="2022-10-24T20:13:55Z" finished-at="2022-10-24T20:14:53Z">
+    <groups>
+    </groups>
+    <test name="search java" duration-ms="13635" started-at="2022-10-24T20:13:55Z" finished-at="2022-10-24T20:14:09Z">
+      <class name="com.newtours.tests.SearchTest">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.newtours.tests.SearchTest@3d8c7aca]" name="setUpDriver" is-config="true" duration-ms="5843" started-at="2022-10-24T20:13:55Z" finished-at="2022-10-24T20:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.newtours.tests.SearchTest@3d8c7aca]" name="search" duration-ms="7417" started-at="2022-10-24T20:14:01Z" finished-at="2022-10-24T20:14:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.newtours.tests.SearchTest@3d8c7aca]" name="quitBrowser" is-config="true" duration-ms="357" started-at="2022-10-24T20:14:08Z" finished-at="2022-10-24T20:14:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.newtours.tests.SearchTest -->
+    </test> <!-- search java -->
+    <test name="search qa" duration-ms="14105" started-at="2022-10-24T20:14:09Z" finished-at="2022-10-24T20:14:23Z">
+      <class name="com.newtours.tests.SearchTest">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.newtours.tests.SearchTest@4cb2c100]" name="setUpDriver" is-config="true" duration-ms="2094" started-at="2022-10-24T20:14:09Z" finished-at="2022-10-24T20:14:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.newtours.tests.SearchTest@4cb2c100]" name="search" duration-ms="11735" started-at="2022-10-24T20:14:11Z" finished-at="2022-10-24T20:14:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.newtours.tests.SearchTest@4cb2c100]" name="quitBrowser" is-config="true" duration-ms="274" started-at="2022-10-24T20:14:23Z" finished-at="2022-10-24T20:14:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.newtours.tests.SearchTest -->
+    </test> <!-- search qa -->
+    <test name="search webdriver" duration-ms="9833" started-at="2022-10-24T20:14:23Z" finished-at="2022-10-24T20:14:33Z">
+      <class name="com.newtours.tests.SearchTest">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.newtours.tests.SearchTest@6be46e8f]" name="setUpDriver" is-config="true" duration-ms="2808" started-at="2022-10-24T20:14:23Z" finished-at="2022-10-24T20:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.newtours.tests.SearchTest@6be46e8f]" name="search" duration-ms="6693" started-at="2022-10-24T20:14:26Z" finished-at="2022-10-24T20:14:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webdriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.newtours.tests.SearchTest@6be46e8f]" name="quitBrowser" is-config="true" duration-ms="328" started-at="2022-10-24T20:14:32Z" finished-at="2022-10-24T20:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.newtours.tests.SearchTest -->
+    </test> <!-- search webdriver -->
+    <test name="search docker" duration-ms="9446" started-at="2022-10-24T20:14:33Z" finished-at="2022-10-24T20:14:42Z">
+      <class name="com.newtours.tests.SearchTest">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.newtours.tests.SearchTest@15975490]" name="setUpDriver" is-config="true" duration-ms="2921" started-at="2022-10-24T20:14:33Z" finished-at="2022-10-24T20:14:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.newtours.tests.SearchTest@15975490]" name="search" duration-ms="6211" started-at="2022-10-24T20:14:36Z" finished-at="2022-10-24T20:14:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.newtours.tests.SearchTest@15975490]" name="quitBrowser" is-config="true" duration-ms="312" started-at="2022-10-24T20:14:42Z" finished-at="2022-10-24T20:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.newtours.tests.SearchTest -->
+    </test> <!-- search docker -->
+    <test name="search kubernetes" duration-ms="10225" started-at="2022-10-24T20:14:42Z" finished-at="2022-10-24T20:14:53Z">
+      <class name="com.newtours.tests.SearchTest">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.newtours.tests.SearchTest@2d3fcdbd]" name="setUpDriver" is-config="true" duration-ms="3343" started-at="2022-10-24T20:14:42Z" finished-at="2022-10-24T20:14:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.newtours.tests.SearchTest@2d3fcdbd]" name="search" duration-ms="6401" started-at="2022-10-24T20:14:46Z" finished-at="2022-10-24T20:14:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kubernetes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.newtours.tests.SearchTest@2d3fcdbd]" name="quitBrowser" is-config="true" duration-ms="480" started-at="2022-10-24T20:14:52Z" finished-at="2022-10-24T20:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.newtours.tests.SearchTest -->
+    </test> <!-- search kubernetes -->
+  </suite> <!-- search-module -->
+</testng-results>
