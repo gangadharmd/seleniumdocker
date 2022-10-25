@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [search-module]">
+  <test thread-count="5" name="search java(failed)">
+    <parameter name="keyWord" value="java"/>
+    <classes>
+      <class name="com.newtours.tests.SearchTest">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="setUpDriver"/>
+          <include name="search"/>
+        </methods>
+      </class> <!-- com.newtours.tests.SearchTest -->
+    </classes>
+  </test> <!-- search java(failed) -->
+  <test thread-count="5" name="search qa(failed)">
+    <parameter name="keyWord" value="qa"/>
+    <classes>
+      <class name="com.newtours.tests.SearchTest">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="setUpDriver"/>
+          <include name="search"/>
+        </methods>
+      </class> <!-- com.newtours.tests.SearchTest -->
+    </classes>
+  </test> <!-- search qa(failed) -->
+  <test thread-count="5" name="search webdriver(failed)">
+    <parameter name="keyWord" value="webdriver"/>
+    <classes>
+      <class name="com.newtours.tests.SearchTest">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="setUpDriver"/>
+          <include name="search"/>
+        </methods>
+      </class> <!-- com.newtours.tests.SearchTest -->
+    </classes>
+  </test> <!-- search webdriver(failed) -->
+  <test thread-count="5" name="search docker(failed)">
+    <parameter name="keyWord" value="docker"/>
+    <classes>
+      <class name="com.newtours.tests.SearchTest">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="setUpDriver"/>
+          <include name="search"/>
+        </methods>
+      </class> <!-- com.newtours.tests.SearchTest -->
+    </classes>
+  </test> <!-- search docker(failed) -->
+  <test thread-count="5" name="search kubernetes(failed)">
+    <parameter name="keyWord" value="kubernetes"/>
+    <classes>
+      <class name="com.newtours.tests.SearchTest">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="setUpDriver"/>
+          <include name="search"/>
+        </methods>
+      </class> <!-- com.newtours.tests.SearchTest -->
+    </classes>
+  </test> <!-- search kubernetes(failed) -->
+</suite> <!-- Failed suite [search-module] -->

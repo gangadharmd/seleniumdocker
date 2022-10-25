@@ -1,7 +1,0 @@
-com\newtours\pages\FindFlightPage.class
-com\newtours\pages\RegistrationConfirmationPage.class
-com\newtours\pages\RegistrationPage.class
-com\base\driver\BaseTest.class
-com\newtours\pages\FlightConfirmationPage.class
-com\searchduck\pages\SearchPage.class
-com\newtours\pages\FlightDetailsPage.class
