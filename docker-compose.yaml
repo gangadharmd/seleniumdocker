@@ -33,17 +33,6 @@ services:
       - MODULE=testng_search.xml
     volumes:
       - ./search-result1:/usr/share/seleniumdocker/test-output
-  search-module2:
-    image: 291984/selenium-docker
-    depends_on:
-      - chrome
-      - firefox
-    environment:
-      - BROWSER=chrome
-      - HUB_HOST=hub
-      - MODULE=testng_search.xml
-    volumes:
-      - ./search-result2:/usr/share/seleniumdocker/test-output
   book-flight-module1:
     image: 291984/selenium-docker
     depends_on:
@@ -55,14 +44,3 @@ services:
       - MODULE=testng.xml
     volumes:
       - ./book-result1:/usr/share/seleniumdocker/test-output
-  book-flight-module2:
-    image: 291984/selenium-docker
-    depends_on:
-      - chrome
-      - firefox
-    environment:
-      - BROWSER=firefox
-      - HUB_HOST=hub
-      - MODULE=testng.xml
-    volumes:
-      - ./book-result2:/usr/share/seleniumdocker/test-output
